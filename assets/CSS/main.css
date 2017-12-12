@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic-Bold.eot');
+    src: url('../fonts/CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+        url('../fonts/CenturyGothic-Bold.woff') format('woff'),
+        url('../fonts/CenturyGothic-Bold.ttf') format('truetype'),
+        url('../fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic.eot');
+    src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic.woff') format('woff'),
+        url('../fonts/CenturyGothic.ttf') format('truetype'),
+        url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic-Italic.eot');
+    src: url('../fonts/CenturyGothic-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CenturyGothic-Italic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic-Italic.woff') format('woff'),
+        url('../fonts/CenturyGothic-Italic.ttf') format('truetype'),
+        url('../fonts/CenturyGothic-Italic.svg#CenturyGothic-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic-BoldItalic.eot');
+    src: url('../fonts/CenturyGothic-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CenturyGothic-BoldItalic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic-BoldItalic.woff') format('woff'),
+        url('../fonts/CenturyGothic-BoldItalic.ttf') format('truetype'),
+        url('../fonts/CenturyGothic-BoldItalic.svg#CenturyGothic-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+/*========================  Navbar =======================*/
+#small-logo {
+    width: 141px;
+    height: 82px;   
+}
+
+#navbar1 {
+    height: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+}
+
+.nav-link {
+    color: #757575;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 700;
+/*    line-height: 100px;*/
+    margin-right: 52px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .nav-link {
+        font-size: 14px;
+        margin-right: 25px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .nav-link {
+        font-size: 13px;
+        margin-right: 22px;
+}
+
+}
+
+/*========================  Vrt1 =======================*/
+
+#vrt1 {
+    margin-top: 100px;
+    height: 798px;
+    background-image: url(../Images/Vrt1a.png);
+    background-size: cover;
+}
+
+#vrt1 h1 {
+    text-shadow: 0 1px 4px #000000, 0 0 14px rgba(0, 0, 0, 0.09);
+    color: #ffe137;
+    font-family: "Century Gothic";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 146px;
+}
+
+#vrt1 p {
+    width: 488px;
+    
+    color: #0081c1;
+    font-family: "Century Gothic";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 50px;
+}
+
+#vrt1 h6 {
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.67), 0 0 14px rgba(0, 0, 0, 0.09);
+    color: #ffe137;
+    font-family: "Century Gothic";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 15px;
+}
+
+#vrt1 a {
+    color: #ffffff;
+font-family: "Century Gothic";
+font-size: 24px;
+width: 220px;
+
+font-family: "Century Gothic";
+font-size: 24px;
+font-weight: 700;
+margin-top: 50px;
+}
+/*========================  Vrt2 =======================*/
+
+#vrt2 {
+    height: 705px;
+    
+}
+
+#vrt2 .row {
+    margin-top: 119px;
+}
+
+#vrt2 video {
+    width: 100% ;
+    height: auto ;
+    
+}
+
+#vrt2 h2 {
+    color: #0081c1;
+    font-family: "Century Gothic";
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    
+}
+
+#vrt2 h3 {
+    color: #4c4a4f;
+    font-family: "Century Gothic";
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+#vrt2 p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #767479;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 22px;
+    
+}
+
+/*========================  Vrt3 =======================*/
+
+#vrt3 {
+    height: 860px;
+    background-image: url(../Images/Vrt3.jpg);
+    background-size: cover;
+    padding-top: 57px;
+    
+    
+}
+
+#vrt3-layer {
+    
+    background-color: #303030;
+opacity: 0.8;
+    justify-content: center;
+    padding-bottom: 28px;
+    
+}
+
+#vrt3 h2 { 
+
+    text-shadow: 0 2px 4px rgba(7, 6, 6, 0.49);
+color: #ffffff;
+font-family: "Comic Sans MS";
+font-size: 48px;
+font-weight: 700;
+line-height: 104px;
+    text-align: center;
+margin-bottom: 16px;
+}
+
+#vrt3 h3 { 
+
+    color: #ffe137;
+font-family: "Century Gothic";
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+ margin-bottom: 86px;   
+}
+
+#vrt3 h4 { 
+
+    color: #ffffff;
+font-family: "Century Gothic";
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+    
+}
+
+.card-img-top {
+    height: 70px;
+    width: auto;
+}
+
+.card {
+    width: 25%;
+    text-align: center;
+    background-color: #fff0;
+   text-align: -webkit-center;
+    border: 0px solid rgba(0,0,0,.125); */
+    
+}
+
+/*========================  Vrt4 =======================*/
+
+#vrt4 {
+    padding-top: 72px;
+    padding-bottom: 116px;
+}
+
+#vrt4 img {
+/*
+    
+    width: 644px;
+    height: 613px;
+*/
+    width: 100%;
+    height: auto;
+}
+
+#vrt4 h2 {
+    color: #0081c1;
+    font-family: "Century Gothic";
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 27px;
+    
+}
+
+#vrt4 h3 {
+    color: #4c4a4f;
+    font-family: "Century Gothic";
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+#vrt4 p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #767479;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 22px;
+    
+}
+
+#vrt4 a {
+    width: 220px;
+    height: 65px;
+    background-color: #0081c1;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+/*========================  Vrt5 =======================*/
+
+#vrt5 {
+    padding-top: 106px;
+    padding-bottom: 91px;
+    background-image: url(../Images/Vrt5.png);
+   background-size: cover;
+}
+
+#vrt5 h2 {
+    color: #ffffff;
+font-family: "Comic Sans MS";
+font-size: 56px;
+font-weight: 700;
+    margin-bottom: 58px;
+    
+}
+
+#vrt5 a {
+    color: #0081c1;
+font-family: "Century Gothic";
+font-size: 24px;
+font-weight: 700;
+line-height: 50px;
+    
+width: 220px;
+height: 65px;
+border-radius: 10px;
+background-color: #ffffff;
+}
+
+/*========================  Footer =======================*/
+
+#footer {
+
+    padding-top: 44px;
+    padding-bottom: 38px;
+}
+
+#footer img {
+    width: 187px;
+    height: 122px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+}
+
+#footer a {
+    align-self: center;
+    width: 48px;
+height: 50px;
+
+    background-image: url(../Images/facebook.png);
+    margin-top: 30px;
+    
+}
+
+#footer h2 {
+    color: #454648;
+    font-family: "Comic Sans MS";
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+
+#footer p {
+    color: #454648;
+font-family: "Century Gothic";
+font-size: 24px;
+
+line-height: 36px;
+    margin-bottom: 0px;
+    
+}
+
