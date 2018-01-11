@@ -116,7 +116,7 @@ html, body {
 #vrt1 {
     margin-top: 100px;
     height: 798px;
-    background-image: url(../Images/Vrt1a.png);
+    background-image: url(../Images/vrt1a.png);
     background-size: cover;
 }
 
@@ -228,7 +228,7 @@ margin-top: 50px;
 
 #vrt3 {
     height: 860px;
-    background-image: url(../Images/Vrt3.jpg);
+    background-image: url(../Images/vrt3.jpg);
     background-size: cover;
     padding-top: 57px;
     
@@ -369,7 +369,7 @@ line-height: 36px;
 #vrt5 {
     padding-top: 106px;
     padding-bottom: 91px;
-    background-image: url(../Images/Vrt5.png);
+    background-image: url(../Images/vrt5.png);
    background-size: cover;
 }
 
