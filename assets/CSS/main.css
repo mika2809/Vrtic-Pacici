@@ -437,11 +437,116 @@ height: 50px;
 
 #footer p {
     color: #454648;
-font-family: "Century Gothic";
-font-size: 24px;
-
-line-height: 36px;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    line-height: 36px;
     margin-bottom: 0px;
+}
+
+/*========================  Contact =======================*/
+
+#contact-body {
+    padding-top: 200px;
+    padding-bottom: 85px;
+    text-align: left;
+    background-color: #e5e5e5;
+}
+
+#contact-body p {
+    color: #454648;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 0px;
+}
+
+#contact-body iframe {
+    width: 100%;
+    height: 468px;
+    border: solid;
+    border-radius: 4%;
+    border-color: #b7b7b7;
+}
+
+#contact-body h1 {
+    color: #0081c1;
+    font-family: "Century Gothic";
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 105px;
+}
+
+@media (min-width: 0px) and (max-width: 767.99px) {
+    #contact-body iframe {
+        margin-top: 40px;
+    }
+    #contact-body p {
+        font-size: 16px;
+    }
+    #contact-body h1 {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #contact-body p {
+        font-size: 17px;
+    }
     
 }
 
+/*========================  Galerija =======================*/
+#galerija {
+    padding-top: 115px;
+    background-color: #e5e5e5;
+    padding-bottom: 15px;
+    
+}
+
+#galerija img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    width: 100%;
+    height: auto;
+}
+
+/*========================  About =======================*/
+
+#about1 {
+    margin-top: 100px;
+    padding-top: 45px;
+    background-image: url("../Images/about1-back.jpg");
+    background-size: 100% 100%;
+}
+
+#about1 h1 {
+    text-shadow: 0 0 14px rgba(0, 0, 0, 0.09);
+    color: #fffefe;
+    font-family: "Century Gothic";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+#about1 p {
+    text-shadow: 0 0 14px rgba(0, 0, 0, 0.09);
+    color: #fffefe;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+
+#about1 img {
+    max-width: 125%;
+    height: auto;
+    margin-left: -50px;
+}
+
+.about-green {
+    background-color: #6db646;
+    margin-bottom: -50px;
+}
